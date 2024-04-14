@@ -1,0 +1,35 @@
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+.nav_logo{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav_list{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.nav_link {
+    color: white; 
+    font-size: 30px;
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}

@@ -1,0 +1,82 @@
+.training-main{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.training-container{
+    width: 80%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.training-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+.training-images{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.training-image{
+    display: flex;
+    flex-direction: column;
+}
+.training-image img{
+    width: 560px;
+    cursor: pointer;
+    transition: 0.5s ease 0s;
+}
+.training-image img:hover {
+    transform: scale(1.1);
+}
+.training-image h1{
+    text-align: center;
+}
+.video-main{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video-container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    gap: 30px;
+}
+.video{
+    border: 2px solid #fff;
+    border-radius: 20px;
+}
+.video-content button{
+    background-color: #080808;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    color: white;
+    font-size: 25px;
+    padding: 13px 45px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:white;
+    color: #080808;
+}
